@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Api(description = "Endpoints for Creating, Retrieving, Updating and Deleting of Contacts.",tags = {"Todo"})
+@Api(description = "Endpoints for Creating, Retrieving, Updating and Deleting of tasks list.",tags = {"Todo"})
 @RestController
 @RequestMapping("todo")
 public class TodoController {
